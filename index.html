@@ -7,14 +7,14 @@
 		<script src="./App.js"></script>
 		<title>fiber clone challenge</title>
 	</head>
-	<body class="container">
+	<body>
 		<header>
 			<div class="logo">
 				<h1>Fiber</h1>
 			</div>
 
 			<nav>
-				<div class="features">
+				<div class="features show" id="show_drawer">
 					<ul>
 						<li>
 							<a href="http://" target="_blank" rel="noopener noreferrer"
@@ -35,19 +35,17 @@
 
 					<ul>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer"
-								>Sign In</a
-							>
+							<a href="./loginPage.html" rel="noopener noreferrer">Sign In</a>
 						</li>
 						<li>
-							<a href="http://" target="_blank" rel="noopener noreferrer"
-								>Sign Up</a
-							>
+							<a href="./register.html" rel="noopener noreferrer">Sign Up</a>
 						</li>
 					</ul>
 				</div>
-				<div class="hamburger__menu">
-					<img src="./Fiber Starter Files/Assets/Hamburger Menu.svg" alt="" />
+				<div id="hamburger">
+					<div class="hamburger__menu">
+						<img src="./Fiber Starter Files/Assets/Hamburger Menu.svg" alt="" />
+					</div>
 				</div>
 			</nav>
 		</header>
@@ -256,9 +254,7 @@
 						>
 					</li>
 					<li>
-						<a href="http://" target="_blank" rel="noopener noreferrer"
-							>FAQ</a
-						>
+						<a href="http://" target="_blank" rel="noopener noreferrer">FAQ</a>
 					</li>
 				</ul>
 			</div>
@@ -277,9 +273,7 @@
 						>
 					</li>
 					<li>
-						<a href="http://" target="_blank" rel="noopener noreferrer"
-							>Blog</a
-						>
+						<a href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
 					</li>
 				</ul>
 			</div>
@@ -305,5 +299,6 @@
 				</ul>
 			</div>
 		</footer>
+		<script src="./App.js"></script>
 	</body>
 </html>

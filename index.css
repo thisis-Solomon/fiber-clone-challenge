@@ -49,7 +49,54 @@ header nav {
 }
 
 header .features {
-	display: none;
+	position: absolute;
+	width: 70%;
+	height: 15.3%;
+	right: -100%;
+	top: 0.8%;
+	background: rgba(0, 0, 0, 0.932);
+}
+
+header .features.show {
+	right: 0;
+}
+
+header .features ul:first-child {
+	margin: 2rem 1.3rem;
+	font-size: 1.5rem;
+}
+
+header .features ul:first-child li {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+header .features ul:first-child li::after {
+	content: '';
+	background: gray;
+	width: 100%;
+	height: 100%;
+	left: 0;
+}
+
+header .features ul:last-child {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	line-height: 2.5rem;
+	font-size: 1.2rem;
+	background: rgb(0, 0, 0);
+}
+
+header .features ul:last-child li a {
+	padding: 0.5rem 1.2rem;
+	color: white;
+}
+
+header .features ul:last-child li a:last-child:hover {
+	background: blue;
 }
 
 header .hamburger__menu {
@@ -163,7 +210,7 @@ main .check__mark img {
 ======================= */
 .portfolio {
 	width: 100%;
-	height: 135.9vh;
+	min-height: 100v;
 	background: blue;
 	padding: 3rem 2rem 0;
 	border-radius: 0.5rem;
@@ -230,11 +277,11 @@ main .check__mark img {
 
 .profile_title {
 	margin-left: 0.5rem;
-    font-size: .8rem;
+	font-size: 0.8rem;
 }
 
-.profile_title h3{
-    color: blue;
+.profile_title h3 {
+	color: blue;
 }
 
 .profile_title {
@@ -253,19 +300,19 @@ main .check__mark img {
 /* ======================
 =======FOOTER STYLES=====
 ======================= */
-footer{
-    margin: 5rem auto 2rem;
+footer {
+	margin: 5rem auto 2rem;
 }
 
-footer h1{
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: .5rem;
-    margin-top: 2rem;
+footer h1 {
+	font-size: 1rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+	margin-top: 2rem;
 }
 
-footer li a{
-    font-size: .84rem;
+footer li a {
+	font-size: 0.84rem;
 }
 /* ======================
 =======DESKTOP STYLES====
