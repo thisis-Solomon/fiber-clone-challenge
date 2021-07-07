@@ -1,0 +1,58 @@
+body {
+	font-family: sans-serif;
+}
+
+button {
+	outline: none;
+	border: none;
+	padding: 1rem;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	font-size: 1rem;
+}
+
+.login_form {
+	width: 80%;
+	margin: 3rem auto;
+}
+
+.login_form .logo h1 {
+	font-size: 1.2rem;
+}
+
+.log__form > h1 {
+	font-weight: bolder;
+}
+.log__form {
+}
+
+form {
+	display: block;
+	flex-direction: column;
+}
+
+label {
+	display: block;
+	font-weight: bolder;
+	margin-bottom: 0.2rem;
+}
+
+form input {
+	width: 100%;
+	padding: 0.7rem 0.6rem;
+	margin-bottom: 1rem;
+	border-radius: 0.4rem;
+	outline: none;
+	border: 1.4px solid rgba(128, 128, 128, 0.11);
+	background: transparent;
+	font-size: 1rem;
+}
+
+.log__form button {
+	background: rgb(0, 0, 139);
+	margin-top: 1rem;
+	border-radius: 0.3rem;
+	font-weight: bold;
+	color: white;
+	font-size: 0.8rem;
+}
